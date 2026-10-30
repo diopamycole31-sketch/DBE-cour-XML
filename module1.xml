@@ -1,0 +1,10 @@
+<promotion annee="2026-2027" filiere="Informatique">
+  <etudiant matricule="L1-001">
+    <nom>Sall</nom> <prenom>Awac</prenom>
+    <notes>
+      <note module="M1" coef="2">14.5</note>
+      <note module="M2" coef="3">12</note>
+    </notes>
+  </etudiant>
+  ... L1-002 ... L1-003
+</promotion>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<garde-robe>
+    <robes>
+        <robe couleur="rose" saison="ete" />
+        <robe couleur="verte" saison="ete" />
+        <robe couleur="bleue" saison="hiver" />
+    </robes>
+    <pantalons>
+        <pantalon couleur="blanc" saison="ete" />
+        <pantalon couleur="beige" saison="hiver" />
+    </pantalons>
+</garde-robe>

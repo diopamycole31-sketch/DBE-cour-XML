@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliotheque>
+  <livre>
+    <titre>Une vie boy</titre>
+    <auteur>Ferdinand Oyono</auteur>
+    <annee_publication>1956</annee_publication>
+    <genre>Roman</genre>
+  </livre>
+  <livre>
+    <titre>L'Enfant noir</titre>
+    <auteur>Camara Laye</auteur>
+    <annee_publication>1953</annee_publication>
+    <genre>Roman</genre>
+  </livre>
+</bibliotheque>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaux>
+    <bouteille marque="Kirene" contenance="1.5L" codeBarres="618200001">
+        <pH>7.2</pH>
+        <ions>
+            <ion nom="Calcium" concentration="80" unite="mg/L"/>
+            <ion nom="Magnesium" concentration="25" unite="mg/L"/>
+            <ion nom="Sodium" concentration="10" unite="mg/L"/>
+        </ions>
+    </bouteille>
+
+    <bouteille marque="Casamançaise" contenance="0.5L" codeBarres="618200002">
+        <pH>6.8</pH>
+        <ions>
+            <ion nom="Calcium" concentration="120" unite="mg/L"/>
+            <ion nom="Bicarbonate" concentration="300" unite="mg/L"/>
+        </ions>
+        <autresMatieres>
+            <matiere nom="Fer" concentration="0.5" unite="mg/L"/>
+        </autresMatieres>
+    </bouteille>
+
+    <bouteille marque="Evian" contenance="1L" codeBarres="618200003">
+        <pH>7.8</pH>
+        <ions>
+            <ion nom="Calcium" concentration="80" unite="mg/L"/>
+            <ion nom="Magnesium" concentration="26" unite="mg/L"/>
+            <ion nom="Bicarbonate" concentration="360" unite="mg/L"/>
+            <ion nom="Sulfate" concentration="12.6" unite="mg/L"/>
+        </ions>
+        <autresMatieres>
+            <matiere nom="Silice" concentration="15" unite="mg/L"/>
+        </autresMatieres>
+    </bouteille>
+</eaux>

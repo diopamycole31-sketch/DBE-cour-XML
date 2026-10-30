@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commande numero="CMD-2026-0117" devise="XOF">
+    <client>
+        <nom>Aissatou Ba &amp; Frères</nom>
+        <email>aissatou@example.sn</email>
+    </client>
+    <evenement code="CONCERT-ONS">
+        <titre>Concert de l'Orchestre National</titre>
+        <lieu>Grand Théâtre Doudou Ndiaye Coumba Rose</lieu>
+        <dateHeure>2026-12-12T20:30:00</dateHeure>
+    </evenement>
+    <!-- Choix attribut pour categorie car c'est une valeur fermée (VIP/STANDARD/ENFANT), courte, sans structure, idéale pour filtrer -->
+    <billets>
+        <billet categorie="VIP">
+            <place>A12</place>
+            <prix>15000</prix>
+        </billet>
+        <billet categorie="STANDARD">
+            <place>C07</place>
+            <prix>5000</prix>
+        </billet>
+        <billet categorie="ENFANT">
+            <place>C08</place>
+            <prix>2500</prix>
+            <conditions>Réservé aux moins de 12 ans (âge &lt; 12) &amp; accompagnés</conditions>
+        </billet>
+    </billets>
+</commande>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polyedres>
+    <polyedre>
+        <nom>Cube</nom>
+        <matiere>Bois</matiere>
+        <couleur>marron</couleur>
+        <nombreFaces>6</nombreFaces>
+        <faces>
+            <face numero="1" couleur="marron"/>
+            <face numero="2" couleur="marron"/>
+            
+        </faces>
+    </polyedre>
+
+    <polyedre>
+        <nom>Tetraedre</nom>
+        <couleur>multicolore</couleur>
+        <nombreFaces>4</nombreFaces>
+        <faces>
+            <face numero="1" couleur="rouge"/>
+            <face numero="2" couleur="bleu"/>
+            <face numero="3" couleur="vert"/>
+            <face numero="4" couleur="jaune"/>
+        </faces>
+    </polyedre>
+
+    <polyedre>
+        <nom>Octaedre</nom>
+        <matiere>Verre</matiere>
+        <couleur>transparent</couleur>
+        <nombreFaces>8</nombreFaces>
+    </polyedre>
+</polyedres>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conference>
+    <informationsGenerales>
+        <nom>Conférence Internationale ISEP 2027</nom>
+        <date>2027-01-15</date>
+        <lieu>
+            <nom>ISEP Diamniadio</nom>
+            <description>Amphithéâtre principal, campus sécurisé et connecté</description>
+        </lieu>
+    </informationsGenerales>
+    
+    <auteurs>
+        <auteur id="a1">
+            <nom>NDIAYE</nom>
+            <prenom>Amadou Lamine</prenom>
+            <dateNaissance>1980-05-10</dateNaissance>
+            <siteWeb>https://isep.sn</siteWeb>
+            <biographie>Enseignant P7 XML</biographie>
+        </auteur>
+        <auteur id="a2">
+            <nom>Sall</nom>
+            <prenom>Awac</prenom>
+            <dateNaissance>2005-03-12</dateNaissance>
+            <photo>awac.jpg</photo>
+            <siteWeb>https://awac.sn</siteWeb>
+            <biographie>Etudiante L1</biographie>
+        </auteur>
+        <auteur id="a3">
+            <nom>Sow</nom>
+            <prenom>Fatou</prenom>
+            <dateNaissance>2004-11-02</dateNaissance>
+            <siteWeb>https://fatou.sn</siteWeb>
+            <biographie>Etudiante L1</biographie>
+        </auteur>
+    </auteurs>
+
+    <articles>
+        <article id="art1">
+            <titre>XML pour le développeur moderne</titre>
+            <auteurs>
+                <auteurRef ref="a1"/>
+                <auteurRef ref="a2"/>
+            </auteurs>
+            <affiliations>ISEP Diamniadio</affiliations>
+        </article>
+        <article id="art2">
+            <titre>Modélisation des garde-robes</titre>
+            <auteurs>
+                <auteurRef ref="a3"/>
+            </auteurs>
+            <affiliations>ISEP Diamniadio</affiliations>
+        </article>
+    </articles>
+
+    <presentations>
+        <presentation id="p1">
+            <titre>Ouverture et XML</titre>
+            <date>2027-01-15T09:00:00</date>
+            <description>Séance d'ouverture</description>
+            <communications>
+                <communication>
+                    <titre>Introduction à XML</titre>
+                    <resume>Pourquoi XML reste utile</resume>
+                    <travailPropose>Démo VS Code</travailPropose>
+                    <conclusion>XML est toujours d'actualité</conclusion>
+                    <auteurRef ref="a1"/>
+                    <articleRef ref="art1"/>
+                </communication>
+            </communications>
+        </presentation>
+
+        <presentation id="p2">
+            <titre>Atelier modélisation</titre>
+            <date>2027-01-15T11:00:00</date>
+            <description>Atelier pratique</description>
+            <communications>
+                <communication>
+                    <titre>Cas de la garde-robe</titre>
+                    <resume>Comment structurer un texte</resume>
+                    <travailPropose>Exercice A2</travailPropose>
+                    <conclusion>Bien modéliser c'est essentiel</conclusion>
+                    <auteurRef ref="a2"/>
+                    <auteurRef ref="a3"/>
+                    <articleRef ref="art2"/>
+                </communication>
+            </communications>
+        </presentation>
+    </presentations>
+</conference>

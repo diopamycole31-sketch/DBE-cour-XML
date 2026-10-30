@@ -1,0 +1,10 @@
+date-echeance : légal
+3eme-annee : illégal (commence par chiffre)
+prix HT : illégal (espace)
+_note : légal mais à éviter (commence par _)
+nom.complet : légal
+élève : légal mais à éviter (accent)
+a+b : illégal (caractère +)
+xml-donnees : illégal (commence par xml)
+-tiret : illégal (commence par -)
+Etudiant : légal
